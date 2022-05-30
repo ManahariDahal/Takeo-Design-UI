@@ -1,0 +1,145 @@
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;700;800&family=Poppins:wght@900&family=Roboto:wght@300;400;500;700;900&family=Source+Sans+Pro:wght@300;400;600;900&display=swap");
+
+:root {
+  --primary-btn-color: #13183f;
+  --secondary-p-text: #83869a;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+body {
+  background-color: #f8f8ff;
+}
+
+a {
+  text-decoration: none;
+}
+
+.wrapper {
+  /* max-width: 500px; */
+  display: flex;
+  flex-direction: column;
+  margin: 0 25px;
+}
+
+.header,
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px 10px;
+}
+
+.btn,
+.btn-secondary,
+.btn-footer {
+  text-transform: capitalize;
+  border: none;
+  padding: 15px 25px;
+  border-radius: 50px;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  cursor: pointer;
+}
+
+.btn-footer {
+  background: linear-gradient(180deg, #4851ff -54.32%, #f02aa6 100%);
+}
+
+.btn {
+  background-color: var(--primary-btn-color);
+}
+
+.btn-secondary,
+.tile-one {
+  background: linear-gradient(180deg, #ff6f48 0%, #f02aa6 100%);
+}
+
+.body-info,
+.body-tiles {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 45px 0;
+  gap: 30px;
+}
+
+.body-tiles {
+  gap: 50px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 2.7rem;
+  line-height: 3.5rem;
+  font-weight: 600;
+}
+
+#body-paragraph {
+  text-align: center;
+}
+
+#body-paragraph,
+#tile-paragraph {
+  line-height: 25px;
+  color: var(--secondary-p-text);
+}
+
+#hero-mobile {
+  width: 100%;
+}
+
+.tile-one {
+  padding: 25px;
+  color: white;
+  font-weight: bold;
+  font-size: 1.5rem;
+  border-radius: 10px;
+  margin: 0 0 30px 0;
+}
+
+.animation-tile,
+.design-tile,
+.photography-tile,
+.crypto-tile,
+.business-tile {
+  box-shadow: 7px 11px 20px -10px rgb(0 0 0 / 33%);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  padding: 30px 20px;
+  background: #fff;
+  max-width: 360px;
+}
+
+.get-started-text {
+  color: #f74780;
+  font-weight: bold;
+}
+
+.tile-img {
+  width: 50px;
+  margin-top: -50px;
+}
+
+.footer {
+  background-color: var(--primary-btn-color);
+  padding: 45px 30px;
+}
+
+@media only screen and (min-width: 720px) {
+  .btn {
+    padding: 25px 35px;
+    font-size: 20px;
+  }
+}
+
+@media only screen and (min-width: 1080px) {
+}
