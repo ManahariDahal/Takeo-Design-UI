@@ -13,158 +13,178 @@
     <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
-    <!-- header -->
-    <div class="wrapper">
-      <section class="header">
-        <div class="dark-logo">
-          <img src="./assets/logo-dark.svg" alt="" />
-        </div>
+    <div class="main-wrap">
+      <!-- header -->
+      <div class="wrapper">
+        <section class="header">
+          <div class="dark-logo">
+            <img src="./assets/logo-dark.svg" alt="" />
+          </div>
 
-        <div id="get-started">
-          <button type="button" class="btn">get started</button>
-        </div>
-      </section>
+          <div id="get-started">
+            <button type="button" class="btn">get started</button>
+          </div>
+        </section>
 
-      <!-- body -->
-      <section class="body-info">
-        <h1>
-          Maximize skill, <br />
-          minimize budget
-        </h1>
+        <!-- body -->
+        <section class="body-info">
+          <div class="about">
+            <h1>
+              Maximize skill, <br />
+              minimize budget
+            </h1>
 
-        <p id="body-paragraph">
-          Our modern courses across a range of in-demand skills will give you
-          the knowledge you need to live the life you want.
-        </p>
+            <p id="body-paragraph">
+              Our modern courses across a range of in-demand skills will give
+              you the knowledge you need to live the life you want.
+            </p>
 
-        <button type="button" class="btn-secondary">get started</button>
+            <button type="button" class="btn-secondary">get started</button>
+          </div>
 
-        <img
-          id="hero-mobile"
-          src="./assets/image-hero-mobile@2x.png"
-          alt="image-hero"
-        />
-      </section>
+          <div>
+            <picture>
+              <source
+                media="(min-width:300px) and (max-width:819px)"
+                srcset="./assets/image-hero-mobile.png"
+              />
 
-      <!--
+              <source
+                media="(min-width:820px) and (max-width:1149px)"
+                srcset="./assets/image-hero-tablet.png"
+              />
+
+              <source
+                media="(min-width:1150px)"
+                srcset="./assets/image-hero-desktop.png"
+              />
+
+              <img src="./assets/image-hero-desktop.png" alt="" />
+            </picture>
+          </div>
+        </section>
+
+        <!--
         BODY TILES
       -->
-      <section class="body-tiles">
-        <div class="tile-one">Check out our most popular courses!</div>
+        <section class="body-tiles">
+          <div class="tile-one">Check out our most popular courses!</div>
 
-        <!-- animation -->
-        <div class="animation-tile">
-          <img
-            class="tile-img"
-            src="./assets/icon-animation.svg"
-            alt="animation"
-          />
+          <!-- animation -->
+          <div class="animation-tile">
+            <img
+              class="tile-img"
+              src="./assets/icon-animation.svg"
+              alt="animation"
+            />
 
-          <h3>Animation</h3>
+            <h3>Animation</h3>
 
-          <p id="tile-paragraph">
-            Learn the latest animation techniques to create stunning motion
-            design and captivate your audience.
-          </p>
+            <p id="tile-paragraph">
+              Learn the latest animation techniques to create stunning motion
+              design and captivate your audience.
+            </p>
 
-          <a href="#get-started">
-            <p class="get-started-text">Get Started</p>
-          </a>
-        </div>
+            <a href="#get-started">
+              <p class="get-started-text">Get Started</p>
+            </a>
+          </div>
 
-        <!-- design -->
-        <div class="design-tile">
-          <img
-            class="tile-img"
-            src="./assets/icon-design.svg"
-            alt="animation"
-          />
+          <!-- design -->
+          <div class="design-tile">
+            <img
+              class="tile-img"
+              src="./assets/icon-design.svg"
+              alt="animation"
+            />
 
-          <h3>Design</h3>
+            <h3>Design</h3>
 
-          <p id="tile-paragraph">
-            Learn the latest animation techniques to create stunning motion
-            design and captivate your audience.
-          </p>
+            <p id="tile-paragraph">
+              Create beautiful, usable interfaces to help shape the future of
+              how the web looks. Even with no experience!
+            </p>
 
-          <a href="#get-started">
-            <p class="get-started-text">Get Started</p>
-          </a>
-        </div>
+            <a href="#get-started">
+              <p class="get-started-text">Get Started</p>
+            </a>
+          </div>
 
-        <!-- photography -->
-        <div class="photography-tile">
-          <img
-            class="tile-img"
-            src="./assets/icon-photography.svg"
-            alt="animation"
-          />
+          <!-- photography -->
+          <div class="photography-tile">
+            <img
+              class="tile-img"
+              src="./assets/icon-photography.svg"
+              alt="animation"
+            />
 
-          <h3>Photography</h3>
+            <h3>Photography</h3>
 
-          <p id="tile-paragraph">
-            Learn the latest animation techniques to create stunning motion
-            design and captivate your audience.
-          </p>
+            <p id="tile-paragraph">
+              Explore critical fundamentals like lighting, composition, and
+              focus to capture exceptional photos.
+            </p>
 
-          <a href="#get-started">
-            <p class="get-started-text">Get Started</p>
-          </a>
-        </div>
+            <a href="#get-started">
+              <p class="get-started-text">Get Started</p>
+            </a>
+          </div>
 
-        <!-- crypto -->
-        <div class="crypto-tile">
-          <img
-            class="tile-img"
-            src="./assets/icon-crypto.svg"
-            alt="animation"
-          />
+          <!-- crypto -->
+          <div class="crypto-tile">
+            <img
+              class="tile-img"
+              src="./assets/icon-crypto.svg"
+              alt="animation"
+            />
 
-          <h3>Crypto</h3>
+            <h3>Crypto</h3>
 
-          <p id="tile-paragraph">
-            Learn the latest animation techniques to create stunning motion
-            design and captivate your audience.
-          </p>
+            <p id="tile-paragraph">
+              All you need to know to get started investing in crypto. Go from
+              beginner to advanced with this 54 hour course.
+            </p>
 
-          <a href="#get-started">
-            <p class="get-started-text">Get Started</p>
-          </a>
-        </div>
+            <a href="#get-started">
+              <p class="get-started-text">Get Started</p>
+            </a>
+          </div>
 
-        <!-- business -->
-        <div class="business-tile">
-          <img
-            class="tile-img"
-            src="./assets/icon-business.svg"
-            alt="animation"
-          />
+          <!-- business -->
+          <div class="business-tile">
+            <img
+              class="tile-img"
+              src="./assets/icon-business.svg"
+              alt="animation"
+            />
 
-          <h3>Business</h3>
+            <h3>Business</h3>
 
-          <p id="tile-paragraph">
-            Learn the latest animation techniques to create stunning motion
-            design and captivate your audience.
-          </p>
+            <p id="tile-paragraph">
+              A step-by-step playbook to help you start, scale, and sustain your
+              business without outside investment.
+            </p>
 
-          <a href="#get-started">
-            <p class="get-started-text">Get Started</p>
-          </a>
-        </div>
-      </section>
+            <a href="#get-started">
+              <p class="get-started-text">Get Started</p>
+            </a>
+          </div>
+        </section>
+      </div>
     </div>
-
     <!--
         FOOTER
       -->
-    <section class="footer">
-      <div class="light-logo">
-        <img src="./assets/logo-light.svg" alt="logo-light" />
-      </div>
+    <div class="footer-wrap">
+      <section class="footer">
+        <div class="light-logo">
+          <img src="./assets/logo-light.svg" alt="logo-light" />
+        </div>
 
-      <div>
-        <button type="button" class="btn-footer">get started</button>
-      </div>
-    </section>
+        <div>
+          <button type="button" class="btn-footer">get started</button>
+        </div>
+      </section>
+    </div>
   </body>
 </html>
